@@ -1,0 +1,27 @@
+@media only screen and (min-width: 601px) {
+    .slickWrapper {
+        width: 87vw;
+        margin: 0 auto;
+    }
+    .slickWrapper > .slides {
+        width: 27vw;
+    }
+}
+.multiple-items img {
+    width: 100%;
+}
+.multiple-items .slides {
+    margin: 0 1vw;
+}
+.multiple-items .slick-next {
+    background: #000;
+    position: absolute;
+    right: -55px; 
+    z-index: 100;
+}
+.multiple-items .slick-prev {
+    background: #000;
+    position: absolute;
+    left: -55px; 
+    z-index: 100;
+}
